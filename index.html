@@ -56,7 +56,7 @@
             </div>
 
             <!-- nav middle -->
-            <div class="hidden md:flex gap-5 text-xl">
+            <div class="hidden md:flex gap-8 text-xl">
 
                 <ul><a class="font-extrabold" href="">Home</a></ul>
                 <ul><a class="text-gray-500 font-semibold" href="">Services</a></ul>
@@ -68,28 +68,35 @@
 
             <!-- nav right -->
             <div class="hidden md:flex gap-5 items-center">
-                <!-- search icon -->
-                <div class="bg-slate-100 p-2 rounded-full w-10 h-10 items-center flex justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
-                </div>
+                <!-- search button -->
+                <button>
+                    <div class="bg-slate-100 p-2 rounded-full w-10 h-10 items-center flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </div>
+                </button>
 
-                <!-- cart icon -->
-                <div class="bg-slate-100 p-2 rounded-full w-10 h-10 items-center flex justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
-                </div>
+
+                <!-- cart button -->
+                <button>
+                    <div class="bg-slate-100 p-2 rounded-full w-10 h-10 items-center flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>
+                </button>
+
 
                 <!-- button -->
-                <div class="flex gap-5 bg-lime-400 rounded-full items-center px-5 py-3">
-                    <h3 class="text-xl font-extrabold">Book Consult</h3>
-                    <div class="bg-black text-white w-8 h-8 rounded-full items-center flex justify-center">
+                <div
+                    class="flex justify-center gap-3 bg-lime-400 max-w-fit rounded-3xl mx-auto px-5 py-2 my-10 items-center">
+                    <button class="text-2xl font-bold text-black">Book Consult</button>
+                    <div class="bg-black text-white w-7 h-7 rounded-full items-center flex justify-center">
                         <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
                     </div>
                 </div>
@@ -119,13 +126,17 @@
                 space with natural light.</p>
 
             <!-- button -->
+
             <div class="flex justify-center mb-8">
-                <div class="flex gap-5 bg-lime-200 rounded-full items-center px-5 py-3">
-                    <h3 class="text-xl font-bold">View Details</h3>
-                    <div class="bg-lime-400 text-black w-8 h-8 rounded-full items-center flex justify-center">
-                        <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+                <button>
+                    <div class="flex gap-5 bg-lime-200 rounded-full items-center px-5 py-3">
+                        <h3 class="text-xl font-bold">View Details</h3>
+                        <div class="bg-lime-400 text-black w-8 h-8 rounded-full items-center flex justify-center">
+                            <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+                        </div>
                     </div>
-                </div>
+                </button>
+
             </div>
 
         </div>
@@ -363,9 +374,12 @@
         <section class="bg-violet-100 py-10">
             <div class="max-w-7xl mx-auto px-5 md:px-0">
                 <div class="text-center">
-                    <button class="btn bg-white text-lg rounded-2xl mb-5"><i class="fa-solid fa-arrow-right"></i>Free Aftersale Services</button>
-                    <h3 class="text-2xl font-extrabold mb-5">Our Commitments to Clients <br> Makes Us <span class="text-4xl text-red-500 italic">Unique</span></h3>
-                    <p class="mb-5 max-w-xl mx-auto">We provide free after sale services to our hoorned clients, it is our challenge to make our clients happy with our free aftersale services</p>
+                    <button class="btn bg-white text-lg rounded-2xl mb-5"><i class="fa-solid fa-arrow-right"></i>Free
+                        Aftersale Services</button>
+                    <h3 class="text-2xl font-extrabold mb-5">Our Commitments to Clients <br> Makes Us <span
+                            class="text-4xl text-red-500 italic">Unique</span></h3>
+                    <p class="mb-5 max-w-xl mx-auto">We provide free after sale services to our hoorned clients, it is
+                        our challenge to make our clients happy with our free aftersale services</p>
                 </div>
 
                 <!-- cards -->
@@ -377,7 +391,7 @@
                         <h3 class="mb-2 text-xl font-bold">Free Repair</h3>
                         <p>We shall provide free repairs of any structures of your house for 10 long years</p>
                     </div>
-                    
+
                     <!-- card 2 -->
                     <div class="bg-blue-200 p-5 rounded-xl shadow-2xl">
                         <img class="mb-2" src="assets/budget-planning.png" alt="">
@@ -415,7 +429,8 @@
 
             <!-- text area -->
             <label class="form-control max-w-4xl mx-auto">
-                <textarea class="textarea text-base rounded-3xl h-28 md:h-48 " placeholder="write your message here"></textarea>
+                <textarea class="textarea text-base rounded-3xl h-28 md:h-48 "
+                    placeholder="write your message here"></textarea>
             </label>
 
             <!-- button -->
